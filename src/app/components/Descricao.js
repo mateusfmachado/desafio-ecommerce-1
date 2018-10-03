@@ -11,7 +11,7 @@ class Descricao extends Component {
                             Com 1 ano de garantia. 
                             Produto original, com nota fiscal e manual.
                         </h4>
-                        <h5 className="text-center">...</h5>
+                        <span className="text-center">...</span>
                         <h4 className="text-center">
                             Relógio analógico masculino com caixa e pulseira de aço inoxidável dourado, vidro de cristal mineral, 41.7 mm de diåmetro e pesando 160 g. 
                             Alimentação a bateria e com resistência de 3 ATM.

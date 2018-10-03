@@ -15,9 +15,10 @@ class DetalhesProduto extends Component {
                     <iframe 
                         src="https://www.youtube.com/embed/X0DjGPO7THQ?rel=0&amp;autoplay=1&mute=1" 
                         allow="autoplay; encrypted-media" 
-                        allowFullscreen 
+                        title="Video"
+                        allowFullScreen
                         frameBorder="0" 
-                        style={{overflow:"hidden",height:"100%",width:"100%"}} 
+                        style={{overflow:"hidden", width:"100%"}} 
                         height="100%" 
                         width="100%">
                     </iframe>
@@ -28,7 +29,7 @@ class DetalhesProduto extends Component {
                         <h2 className="text-center">Descrição</h2>
                     </div>
 
-                    <div className="flex horizontal">
+                    <div className="flex horizontal-only">
                         <div className={`flex-1 button ${this.state.show === "estilo" ? "button-active" : "" }`} onClick={()=>this.setState({ show: "estilo" })}>
                             Estilo
                         </div>
@@ -42,7 +43,7 @@ class DetalhesProduto extends Component {
                             data
                             .filter((item) => item.tipo === this.state.show)
                             .map((item, index) => (
-                                <div key={index} className="espec flex-1 flex horizontal">
+                                <div key={index} className="espec flex-1 flex horizontal-only">
                                     <div className="flex-1 flex">
                                         { item.label }
                                     </div>

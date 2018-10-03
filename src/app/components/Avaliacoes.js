@@ -45,7 +45,7 @@ class Avaliacoes extends Component {
                                                     {
                                                         Array
                                                         .from({length: item.estrelas}, (v, k) => k+1)
-                                                        .map((_d,i) => (<span key={i}>⭐️</span>) )
+                                                        .map((_d,i) => (<span role="img" aria-label="star" key={i}>⭐️</span>) )
                                                     }
                                                 </span>
                                             </div>

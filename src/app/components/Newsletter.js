@@ -12,8 +12,8 @@ class Newsletter extends Component {
                         Digite seu email para acompanhar as novas promoções e receber ofertas e novidades exclusivas!
                     </span>
                 </div>
-                <div className="flex-2 flex horizontal flex-center vertical">
-                    <div className="flex flex-center horizontal">
+                <div className="flex-2 flex horizontal flex-center vertical padding-10">
+                    <div className="flex flex-center horizontal-only">
                         <input
                             name="email"
                             className="Input Input-newsletter"

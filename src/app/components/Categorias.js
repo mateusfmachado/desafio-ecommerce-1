@@ -4,7 +4,7 @@ class Categorias extends Component {
     render(){
         return (
             <div className="Categorias ">
-                <div className="container flex horizontal">
+                <div className="container flex horizontal-only">
                     <div className="flex-1 flex flex-center">
                         Relógios
                     </div>

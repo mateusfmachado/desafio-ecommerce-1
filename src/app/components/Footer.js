@@ -14,10 +14,11 @@ class Footer extends Component {
                 <div className="container flex horizontal">
                     {
                         data.map((item, index) => (
-                            <div key={index} className="flex-1 flex vertical flex-center">
+                            <div key={index} className="flex-1 flex vertical flex-center padding-10">
                                 <span>{ item.split(': ')[0] }</span>
                                 <br />
                                 <span>{ item.split(': ')[1] }</span>
+                                <hr className="Hr" />
                             </div>
                         ))
                     }
